@@ -13,6 +13,7 @@
 ;Build GZE Library, which  as is own cwc Makefile
 -#Build VLiance/GZE/v1.0 -#To obj/cpp_{_sPlatform}_{_sOpt}/GZE/LibGZE/ -I obj/cw/
 >
+;We copy the resources to the final output directory (To be accessible from the application)
 -#Copy src_(Demo)/RcExe _out/{_sPlatform}_{_sOpt}/Rc/
 >
 ;Take all object file in the output folder and link them to make a binary
